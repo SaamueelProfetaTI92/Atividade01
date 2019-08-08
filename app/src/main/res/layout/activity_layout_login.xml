@@ -8,122 +8,131 @@
     android:background="#182133"
     android:orientation="vertical"
     tools:context=".layout_login">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#182133"
-    android:orientation="vertical"
-    tools:context=".layout_login">
-
-    <LinearLayout
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/ic_chevron_left_white" />
-
-
-        <TableLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:stretchColumns="0,3">
-
-            <TableRow>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginRight="30dp"
-                        android:text="Admin Login"
-                        android:textAlignment="center"
-                        android:textColor="#FFF"
-                        android:textSize="30dp" />
-
-
-                </LinearLayout>
-            </TableRow>
-        </TableLayout>
-    </LinearLayout>
-
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
-
-        >
-
+        android:layout_height="match_parent"
+        android:background="#182133"
+        android:orientation="vertical"
+        tools:context=".layout_login">
 
         <LinearLayout
-            android:layout_width="350dp"
-            android:layout_height="320dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="200dp"
-            android:background="#fff"
-            android:orientation="vertical">
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="match_parent"
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_chevron_left_white" />
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="80dp"
-                android:gravity="center"
-                android:text="Lorem ipsum Dolor"
-                android:textColor="#4CAF50"
-                android:textSize="30sp" />
+                android:stretchColumns="0,3">
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Enter User Number"
-                android:drawableLeft="@drawable/ic_account_box_black_24dp"
-                android:paddingLeft="10dp"
+                <TableRow>
 
-                />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Password"
-                android:drawableLeft="@drawable/ic_vpn_key"
-                android:paddingLeft="10dp"
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="30dp"
+                            android:text="Admin Login"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="20dp" />
 
-                />
 
-            <Button
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:text="Login"
-                android:layout_gravity="center_horizontal"
-
-                />
-
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
         </LinearLayout>
 
-        <ImageView
-            android:layout_width="220dp"
-            android:layout_height="220dp"
-            android:layout_marginLeft="55dp"
-            android:layout_marginTop="60dp"
-            android:background="@drawable/borda_logo_two"
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="315dp"
+                android:layout_marginTop="150dp"
+                android:background="#fff"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:gravity="center"
+                    android:text="Lorem ipsum Dolor"
+                    android:textColor="#4CAF50"
+                    android:textSize="30sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter User Number"
+                    android:drawableLeft="@drawable/ic_account_box_black_24dp"
+                    android:paddingLeft="10dp"
+
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:drawableLeft="@drawable/ic_vpn_key"
+                    android:paddingLeft="10dp"
+
+                    />
+
+                <Button
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/botao_verde"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="220dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/borda_logo_two"
+
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not registred?"
+            android:textSize="20sp"
+            android:layout_gravity="center"        android:textColor="#FFF"
             />
 
-    </RelativeLayout>
-
-
-</LinearLayout>
+    </LinearLayout>
 </ScrollView>
