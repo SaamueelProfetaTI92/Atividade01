@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,7 +7,9 @@
     android:background="@drawable/background"
     android:gravity="center_horizontal"
     android:orientation="horizontal"
-    tools:context=".Janela_two">
+    tools:context=".Janela_two"
+
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,12 +32,12 @@
             android:layout_height="40dp"
             android:layout_marginBottom="5dp"
             android:background="@drawable/user_name"
-            android:hint="@string/username"
+            android:hint=" Username"
             android:inputType="textPersonName"
-            android:padding="5dp"
             android:textColor="#FFFF"
             android:textColorHint="#85FFFFFF"
             android:textSize="20sp"
+            android:padding="5dp"
 
             />
 
@@ -46,12 +46,14 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/user_name"
-            android:hint="@string/password"
+            android:hint="Password"
             android:inputType="textPassword"
-            android:padding="5dp"
             android:textColor="#FFF"
             android:textColorHint="#83FFFFFF"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:padding="5dp"
+
+            />
 
         <CheckBox
             android:layout_width="wrap_content"
@@ -62,29 +64,29 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="40dp"
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="9dp"
                 android:layout_weight="1"
                 android:background="@drawable/botao_login_signup"
                 android:text="Log In"
+                android:textColor="#DF5470"
                 android:textAllCaps="false"
-                android:textColor="#DF5470" />
+                android:layout_marginBottom="9dp"
+                 />
 
             <Button
-                android:id="@+id/btnSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/botao_login_signup_two"
                 android:text="Sign Up"
+                android:textColor="#FFF"
                 android:textAllCaps="false"
-                android:textColor="#FFF" />
+                />
 
 
         </LinearLayout>
@@ -94,9 +96,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20sp"
-            android:text="Forgot your password?"
+
+            android:text="Forgot password?"
             android:textColor="#FFF"
-            android:textSize="15sp" />
+            android:textSize="20sp" />
     </LinearLayout>
 </LinearLayout>
 

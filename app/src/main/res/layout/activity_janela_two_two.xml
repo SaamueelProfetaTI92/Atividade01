@@ -105,7 +105,6 @@
                     android:background="@drawable/botao_login_signup_two"
                     android:text="Sign Up"
                     android:layout_marginBottom="9dp"
-
                     android:textAllCaps="false"
                     android:textColor="#FFF" />
 

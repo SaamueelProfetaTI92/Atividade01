@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".janela_two_two"></activity>
         <activity android:name=".layout_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".day">
 
         </activity>
-        <activity android:name=".janela_two_two" />
-        <activity android:name=".Janela_two"></activity>
+        <activity android:name=".Janela_two">
+
+        </activity>
         <activity android:name=".MainActivity" />
     </application>
 
